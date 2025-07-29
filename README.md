@@ -45,7 +45,7 @@ npm run dev
 | Route	| Method	| Description |
 | :------- | :------: | -------: |
 | /get_letter |	POST	| Receives image, returns ASL label |
-| /get_message	| POST	| Adds message to SQLAlchemy Database | 
+| /create_message	| POST	| Adds message to SQLAlchemy Database | 
 | /messages	 | GET	 | Returns previous translations / Lists Messages |
 | /delete_message	| DELETE	| Clears message history | 
 | /update_message	| POST	| Updates selected message from unique id | 
