@@ -1,0 +1,47 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(30, 30, 30, 0.55);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+
+  overflow-y: auto;
+  padding: 40px 0; 
+  box-sizing: border-box;
+  align-items: flex-start; 
+}
+
+
+.modal-content {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  padding: 32px;
+  min-width: 350px;
+  max-width: 95vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+
+.close {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 2rem;
+    color: hsl(0, 90%, 48%);;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close:hover {
+    color: hsl(0, 90%, 48%);
+}
